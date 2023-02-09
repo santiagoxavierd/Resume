@@ -2,83 +2,144 @@
 <html>
 	<head>
 		<title>Resume</title>
+		<link rel = "stylesheet" href = "style.css" type = "text/css"/>
 	</head>
 	<body>
-		<img src= "https://drive.google.com/uc?export=view&id=19YJn8uq0mqvb7-cDkRSlJMFX1DO9yumh">
-		<h2>XAVIER D. SANTIAGO</h2>
-		<br>
-		Panoypoyan, Bula, Camarines Sur, 4430
-		<br>
-		0908-227-0294
-		<br>
-		xsantiago@gbox.adnu.edu.ph
-		<br>
-		<hr>
-		<h3>Career Objectives</h3>
-		<p>Is interested in making a significant contribution to the Ateneo de Naga University Computer Science Department</p>
-		<hr>
-		<h3>Educational Background</h3>
-		<b>College</b>
-		<ul>	
-			<li>Ateneo de Naga University</li>
-			<li>August 2021 - Present</li>
-		</ul>
+		<div id = "ImageAndContactInfo">
+			<img src = "https://drive.google.com/uc?export=view&id=19YJn8uq0mqvb7-cDkRSlJMFX1DO9yumh" id = "MyPhoto"/>
+			<h2 id = "Name">XAVIER D. SANTIAGO</h2>
+			<img src = "https://drive.google.com/uc?export=view&id=1dU9lTPkyr4jw4XKhNqjbD23teLSGNLqn" id = "Adrs"/>
+			<p id = "Address">Panoypoyan, Bula, Camarines Sur, 4430</p>
+			<br>
+			<img src = "https://drive.google.com/uc?export=view&id=1sbS1_PM66MpVqx3KlCqAle3OzwoGBsNZ" id = "PhnNmbr"/>
+			<p id = "PhoneNumber">0908-227-0294</p>
+			<br>
+			<img src = "https://drive.google.com/uc?export=view&id=1M4y-iyA10v0ZInQfTC-ZWSmc7wFAoWdM" id = "Eml"/>
+			<p id = "Email">xsantiago@gbox.adnu.edu.ph</p>
+		</div>	
 		
-		<b>Senior High School</b>
-		<ul>
-			<li>Ateneo de Naga University</li>
-			<li>June 2018 - March 2020</li>
-		</ul>
-		<b>Junior High School</b>
-		<ul>
-			<li>Computer Science High School of Bicolandia</li>
-			<li>June 2014 - March 2018</li>
-		</ul>
-		<b>Elementary School</b>
-		<ul>
-			<li>Pili Parochial School</li>
-			<li>June 2006 - March 2014</li>
-		</ul>
-		<h3>Professional Skills</h3>
-		<ol>
-			<li>Proficient in using Microsoft Word, Powerpoint, Excel, Canva</li>
-			<li>Can multitask and provide excellent works</li>
-			<li>Conducts reasonable and critical decisions</li>
-			<li>Can use diffrent programming languages (C++, java, etc.)</li>
-		</ol>
+		<div class = "CareerObjective">
 		<hr>
-		<h3>Character Reference</h3>
-		<b>Rolando SP. Elicay, Ph.D.</b>
-		AdNU Senior High School Director
-		<br>
-		881-41-34 loc. 1041<br>
-		relicay@gbox.adnu.edu.ph<br><br>
-		<b>Cedrick V. Alguzar, LPT</b>
-		<br>
-		AdNU Senior High School Teacher
-		<br>
-		calguzar@gbox.adnu.edu.ph<br><br>
-		<b>John Michael Revilla, RPM</b>
-		<br>
-		AdNU Senior High School Guidance Councillor
-		<br>
-		881-41-34 loc. 2115<br>
-		jrevilla@gbox.adnu.edu.ph
-		<br>
-		<br>
+			<h3 class = "CareerObjective">Career Objective</h3>
+			<p>Is interested in making a significant contribution to the Ateneo de Naga University Computer Science Department</p>
 		<hr>
+		</div>
+		
+		<h3 id = "EducBackground">Educational Background</h3>
+
 		<table>
-			<th colspan = "2"><b>Awards and Certifications</b></th>
+		<thead>
+			<tr>
+			<th>Level</th>
+			<th>School/Institution</th>
+			<th>Duration</th>
+			<th>Achievements</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>College</td>
+				<td>Ateneo de Naga University</td>
+				<td>August 2021 - Present</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Senior High School</td>
+				<td>Ateneo de Naga University</td>
+				<td>June 2018 - March 2020</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Junior High School</td>
+				<td>Computer Science High School of Bicolandia</td>
+				<td>June 2014 - March 2018</td>
+				<td>With Honors<br>Excellence Award in Performing Arts</td>
+			</tr>
+			<tr>
+				<td>Elementary School</td>
+				<td>Pili Parochial School</td>
+				<td>June 2006 - March 2014</td>
+				<td>Fifth Honorable Mention</td>
+			</tr>
+		</tbody>
+		</table>
+	
+		<hr>
+		
+		<div>
+			<h3>Professional and Technical Skills</h3>
+			<ol id = "skills">
+				<li>Proficient in using Microsoft Word, Powerpoint, Excel, Canva</li>
+				<li>Can multitask and provide excellent works</li>
+				<li>Conducts reasonable and critical decisions</li>
+				<li>Can use diffrent programming languages (C++, java, etc.)</li>
+			</ol>
+		</div>
+		<hr>
+		<div>
+		<br>
+		<table>
+			<tr>
+				<th>Awards and Certifications</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>CompTIA</td>
+				<td>2021</td>
+			</tr>
 			<tr>
 				<td>SAP Business One - FIT</td>
 				<td>2021</td>
 			</tr>
-			<tr>	
+			<tr>
 				<td>Cisco Networking</td>
-				<td>2021</td>
+				<td>2022</td>
 			</tr>
 		</table>
-		<h3>Drop a Message</h3>
-		<a href = "https://xadesan.github.io/Resume/Resumev2_message%20form">Click here</a>
+		<br>
+		
+		</div>
+		
+		<div class = "chrR">
+		<hr>
+			<h3>Character Reference</h3>
+				
+			<b>Rolando SP. Elicay, Ph.D.</b>
+			<br>
+			AdNU Senior High School Director
+			<br>
+			881-41-34 loc. 1041
+			<br>
+			<i class = "email">relicay@gbox.adnu.edu.ph</i>
+			
+			<br>
+			<br>
+			
+			<b>Cedrick V. Alguzar, LPT</b>
+			<br>
+			AdNU Senior High School Teacher
+			<br>
+			<i class = "email">calguzar@gbox.adnu.edu.ph</i>
+			
+			<br>
+			<br>
+			
+			<b>John Michael Revilla, RPM</b>
+			<br>
+			AdNU Senior High School Guidance Councillor
+			<br>
+			881-41-34 loc. 2115
+			<br>
+			<i class = "email">jrevilla@gbox.adnu.edu.ph</i>
+			
+			<br>
+			<br>
+			<hr>	
+		</div>
+		
+		<div class = "DropAMessage">
+			<h4>Drop a Message</h4>
+			<a href = "https://xadesan.github.io/Resume/Resumev2_message%20form"><img src = "https://drive.google.com/uc?export=view&id=1nOJ65CPPd_zdfm6pocI1xyvW0v_JTtni" id = "SendMessageAndGoBack"/></a>
+		</div>
 	</body>
 </html>
