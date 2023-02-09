@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Contact</title>
+		<title>Contact/Feedback Form</title>
+		<link rel = "stylesheet" href = "style.css" type = "text/css"/>
 	</head>
 	<body>
-		<a href = "https://xadesan.github.io/Resume/Index"/>&larr;BACK</a>
-		<h1>Drop a message</h1>
+		<div id = "formHeader">
+			<h1 id = "DropMessage">Drop a message</h1>
+			<a href = "https://xadesan.github.io/Resume/Index"/><img src = "https://drive.google.com/uc?export=view&id=1nOJ65CPPd_zdfm6pocI1xyvW0v_JTtni" id = "SendMessageAndGoBack"/></a>
+		</div>
 		<form>
 			<input type = "text" placeholder = "Enter name" name = "name"/>
 			<br>
@@ -13,11 +16,15 @@
 			<br>
 			<textarea name = "text" cols = "30" rows = "10" placeholder = "Your message here..."/></textarea>
 			<br>
-			<input type = "submit" name = "submit" value = "submit" /> 
-			<input type = "reset" name = "reset" value = "reset" />
+			<div id = "Buttons">
+			<input type = "submit" name = "submit" value = "Submit" /> 
+			<input type = "reset" name = "reset" value = "Reset" />
+			</div>
 			<br>
 		</form>
-		<a href = "https://www.facebook.com/Xadesan/">Facebook</a>
-		<a href = "https://github.com/xadesan">Github</a>
+		<div id = "SocMedLinks">
+			<a href = "https://www.facebook.com/Xadesan/"><img src = "https://drive.google.com/uc?export=view&id=1sB-73lywCT0Ynp2EVHf156mDjMz7SZL1"/></a>
+			<a href = "https://github.com/xadesan"><img src = "https://drive.google.com/uc?export=view&id=1lpC4sCeJaIDJHpjN_pty_5LGbXiYrrYR"/></a>
+		</div>
 	</body>
 </html>
