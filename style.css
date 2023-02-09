@@ -1,0 +1,138 @@
+/* The header part of the resume */
+#ImageAndContactInfo{
+
+	text-align: center;
+}
+#MyPhoto {
+	border-radius: 100px;
+	border: 5px solid #555;
+}
+
+/* Basic Information */
+#Address, #PhoneNumber, #Email {
+	display: inline;
+}
+#Email {
+	color: blue;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/* Icons */
+#Adrs, #PhnNmbr, #Eml {
+	width: 32x;
+	height: 32px;
+}
+#Eml {
+	padding-right: 80px;
+}
+#PhnNmbr {
+	padding-right: 180px;
+}
+/* Body */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #FAF9F6;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+/* hr */
+hr {
+	height: 5px;
+    background-color: #555;
+    border: none;
+}
+/* For the Character Reference Layout */
+.chrR{
+	text-align: center;
+}
+/* For the simple table design/layout */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #dddddd;
+  font-size: 16px;
+}
+
+td {
+  font-size: 14px;
+}
+.email{
+	
+	color: blue;
+	text-decoration: underline;
+	padding-top: 0;
+}
+/* For the Contact Form */
+.DropAMessage {
+	text-align: center;
+	font-style: italic;
+}
+#SendMessageAndGoBack {
+	border-radius: 100px;
+	border: 2px solid #555;
+	text-align: center;
+}
+/* For the Feedback or Contact Form */
+#DropMessage {
+    text-align: center;
+    margin-top: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+input[type = "text"], input[type = "email"], textarea {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+textarea {
+    height: 200px;
+    resize: none;
+}
+#id {
+	display: flex;
+    flex-direction: row;
+}
+input[type = "submit"], input[type = "reset"] {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+	color: white;
+}
+input[type = "submit"]{
+	background-color: green;
+	border: none;
+}
+input[type = "reset"]{
+	background-color: red;
+	border: none;
+}
+#SocMedLinks {
+	align-items: center;
+	text-align: center;
+}
+a {
+    font-size: 16px;
+    margin-right: 20px;
+}
+#formHeader {
+	text-align: center;
+}
