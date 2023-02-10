@@ -1,7 +1,18 @@
 /* The header part of the resume */
 #ImageAndContactInfo{
-
+	
 	text-align: center;
+}
+#NameHeader {
+	background-color: #dddddd;
+}
+#Name {
+	color: ;
+}
+.h {
+	height: 20px;
+    background-color: #6495ED;
+    border: none;
 }
 #MyPhoto {
 	border-radius: 100px;
@@ -32,7 +43,7 @@
 /* Body */
 body {
 	font-family: Arial, sans-serif;
-	background-color: #F2F2F2;
+	background-color: #FAF9F6;
 	margin-left: 35px;
 	margin-right: 35px;
 	margin-top: 35px;
@@ -41,7 +52,7 @@ body {
 /* hr */
 hr {
 	height: 5px;
-    background-color: #555;
+    background-color: #6495ED;
     border: none;
 }
 /* For the Character Reference Layout */
@@ -78,6 +89,7 @@ td {
 .DropAMessage {
 	text-align: center;
 	font-style: italic;
+	background-color: #dddddd;
 }
 #SendMessageAndGoBack {
 	border-radius: 100px;
