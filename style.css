@@ -48,8 +48,8 @@ body {
 /* hr */
 hr {
 	height: 5px;
-    background-color: #6495ED;
-    border: none;
+	background-color: #6495ED;
+	border: none;
 }
 /* For the Character Reference Layout */
 .chrR{
@@ -57,19 +57,19 @@ hr {
 }
 /* For the simple table design/layout */
 table {
-  border-collapse: collapse;
-  width: 100%;
+	border-collapse: collapse;
+	width: 100%;
 }
 
 th, td {
-  border: 1px solid #dddddd;
-  padding: 8px;
-  text-align: left;
+	border: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
 }
 
 th {
-  background-color: #dddddd;
-  font-size: 16px;
+	background-color: #dddddd;
+	font-size: 16px;
 }
 
 td {
@@ -94,35 +94,35 @@ td {
 }
 /* For the Feedback or Contact Form */
 #DropMessage {
-    text-align: center;
-    margin-top: 50px;
+	text-align: center;
+	margin-top: 50px;
 }
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
 }
 input[type = "text"], input[type = "email"], textarea {
-    width: 500px;
-    height: 40px;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
+	width: 500px;
+	height: 40px;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 16px;
 }
 textarea {
-    height: 200px;
-    resize: none;
+	height: 200px;
+	resize: none;
 }
 #id {
 	display: flex;
-    flex-direction: row;
+	flex-direction: row;
 }
 input[type = "submit"], input[type = "reset"] {
-    width: 100px;
-    height: 40px;
-    margin-bottom: 20px;
-    font-size: 16px;
+	width: 100px;
+ 	height: 40px;
+ 	margin-bottom: 20px;
+ 	font-size: 16px;
 	color: white;
 }
 input[type = "submit"]{
@@ -138,8 +138,8 @@ input[type = "reset"]{
 	text-align: center;
 }
 a {
-    font-size: 16px;
-    margin-right: 20px;
+	font-size: 16px;
+	margin-right: 20px;
 }
 #formHeader {
 	text-align: center;
