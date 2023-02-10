@@ -1,18 +1,14 @@
 /* The header part of the resume */
 #ImageAndContactInfo{
-	
 	text-align: center;
 }
 #NameHeader {
 	background-color: #dddddd;
 }
-#Name {
-	color: ;
-}
 .h {
 	height: 20px;
-    background-color: #6495ED;
-    border: none;
+	background-color: #6495ED;
+	border: none;
 }
 #MyPhoto {
 	border-radius: 100px;
